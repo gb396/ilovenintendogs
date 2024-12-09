@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color:white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+
+.navbar{
+background-color: #333;
+padding: 10px;
+display:flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+}
+
+.navbar a{
+    color: white;
+}
+
+.maincontent{
+    margin-left:220px;
+    padding:20px; 
+}
+
+.box-model{
+    padding:10px;
+    background-color: lightblue;
+    border: 5px solid yellow;
+    margin: 15px; 
+}
+
+.sidebar{
+background-color: #222;
+width:200px;
+height: 100%;
+position: fixed;
+top: 60px;
+left: 0;
+padding: 15px;
+box-sizing: border-box;
+
+
+
+
+
+}
